@@ -1,0 +1,114 @@
+
+body {
+		font-family: Verdana, Arial, sans-serif;
+		padding: 0;
+		margin: 0;
+		background-image:url('images/bakgrunn.png');
+		
+		
+	}
+	
+#wrapper {
+
+		background: #0000FF;
+		width: 85%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-right: auto;
+		margin-left: auto;
+
+}
+	
+#header {
+		font-family:'Raleway', Helvetica, Arial, sans-serif;
+		height: 100px;
+		width: 	95%;
+		padding: 10px 38px 10px 20px;
+		background: #C0C0C0;
+		text-align: center;
+		margin-bottom:2cm;
+		background: #FFF url(images/Header3.jpg)
+		
+		
+		}	
+
+#menubar {
+
+		background: #FF00FF;
+		width: 100%;
+		height: 50px;
+		float: center;
+		
+
+}		
+		
+#sidebar{
+
+	float: left;
+    width: 250px;
+	height: 400px;
+    background: #00FF00;
+
+}		
+
+#footer {
+
+	background: #FF00FF;
+	bottom:0;
+	width:100%;
+	height:60px;
+	position:relative;
+	text-align: center;
+	margin-top: 2cm;	
+	
+
+}
+
+	
+#container{
+		background: #E4E2E2;
+		margin: auto;
+		width: 768px;
+		height: auto;
+		border-right: 1px solid #E4E2E2;
+		border-left: 1px solid #E4E2E2;
+		padding: 10px 38px 10px 20px;
+		text-align: center;
+		}
+#content {
+		background: #FF0000;
+		margin: auto;
+		margin-top:2cm;
+		padding: 40px 38px 40px 20px;
+		width: 768px;
+		height: 100%;
+		text-align: center;
+		}
+
+		
+
+.h1		{
+		font-size: 12px;
+		text-align: center;
+		{
+		
+.p 	{
+		font-size: 9px;
+		text-align: center;
+		}
+		
+ul.navigasjon li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black;}
+ul.navigasjon a {
+  text-decoration: none; }
+ul.navigasjon {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position:fixed;
+  top: 2em;
+  left: 380px;
+  width: 9em; }
