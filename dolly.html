@@ -23,7 +23,7 @@
 		
 		</div>
 		
-		<div id="menubar">
+		<div id="menubar">	
 		
 		<ul>
    <li class='active'><a href='matliv.html'><span>Hjem</span></a></li>
@@ -31,7 +31,7 @@
    <li class='has-sub'><a href='#'><span>Kategorier</span></a>
       <ul>
          <li><a href='kjøtt.html'><span>Kjøtt</span></a></li>
-         <li><a href='fisk.html'><span>Fisk</span></a></li>
+        <li><a href='fisk.html'><span>Fisk</span></a></li>
 		 <li><a href='pizza.html'><span>Pizza</span></a></li>
 		 <li><a href='kinesisk.html'><span>Kinesisk</span></a></li>
 		 <li><a href='takeaway.html'><span>Take away</span></a></li>
@@ -42,11 +42,11 @@
    
    <li class='has-sub'><a href='#'><span>Restauranter</span></a>
       <ul>
-         <li><a href='dolly.html'><span>Dolly Dimples</span></a></li>
+        <li><a href='dolly.html'><span>Dolly Dimples</span></a></li>
          <li><a href='egon.html'><span>Egon</span></a></li>
 		 <li><a href='sjøhuset.html'><span>Sjøhuset</span></a></li>
 		 <li><a href='harveys.html'><span>Harveys</span></a></li>
-		 <li><a href='amigos.html'><span>Amigos</span></a></li>
+		  <li><a href='amigos.html'><span>Amigos</span></a></li>
 		 <li><a href='motherindia.html'><span>Mother India</span></a></li>
          <li class='last'><a href='#'><span>Products</span></a></li>
       </ul>
@@ -61,7 +61,7 @@
    <li class='active'><a href='registrering.html'><span>Registrering</span></a></li>
    <li class='active'><a href='cafe.html'><span>Café</span></a></li>
    <li class='active'><a href='nyhet.html'><span>Nyhet</span></a></li>
-   
+
    
    
 </ul>
@@ -70,98 +70,53 @@
 	
 		</div>
 		
+		
 		<div id="container">
+		
+		
+		<div id="contentbilde">
+		
+		<IMG class="restbilder" src="images/dolly2.jpg">
+		
+		</div>
 
 		<div id="contentmaps">
 		
-		<script
-src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
-</script>
-
-<script>
-function initialize()
-{
-var mapProp = {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+<iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=no&amp;geocode=&amp;q=Dolly+dimple'
+s+kristiansand&amp;aq=&amp;sll=59.953291,10.634766&amp;sspn=0.197688,0.676346&amp;ie=UTF8&amp;
+hq=Dolly+dimple's&amp;hnear=Kristiansand,+Vest-Agder,+Norge&amp;t=m&amp;ll=58.141358,7.995901&amp;
+spn=0.011326,0.021372&amp;z=14&amp;output=embed">
+</iframe><br /><small>
+<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=no&amp;geocode=&amp;q=Dolly+dimple'
+s+kristiansand&amp;aq=&amp;sll=59.953291,10.634766&amp;sspn=0.197688,0.676346&amp;ie=UTF8&amp;hq=Dolly+dimple's&amp;hnear=Kristiansand,
++Vest-Agder,+Norge&amp;t=m&amp;ll=58.141358,7.995901&amp;spn=0.011326,0.021372&amp;z=14" style="color:#0000FF;text-align:left">Vis større kart</a></small>
 
 
-<body>
+
 <div id="googleMap" style="width:250px;height:250px;"></div>
 
-</body>
+</div>
+
+<div id="content">
+		
+		<h1> Dolly Dimples  </h1>
+		
+		<p> Oversikt over Dolly Dimples restauranter </p>
 		
 		</div>
-		<h1> Registreringskjema  </h1>
-	
-		<p> Registrer din restaurant hos oss </p>
-		
-		
-		
-<form name="matliv.html" method="post" action="matliv.php"> 
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">Fornavn:</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top"">
-  <label for="last_name">Etternavn:</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">E-post adresse:</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telefon: </label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Kommentar:</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">
- </td>
-</tr>
-</table>
-</form>
 
 
+		
+		
 	<div id="footer">
 		<p> Team Iste | &copy; 2013
 		
 		</div>
-	</div>
-	</div>
+		</div>
+	
+	
+	
 	
 
 	
