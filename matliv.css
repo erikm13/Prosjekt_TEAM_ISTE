@@ -7,40 +7,23 @@ body {
 	}
 	
 #wrapper {
-		background: #3E73B9; /* Setter bakgrunnsfarge på wrapper */
+		background: #f0f0f0; /* Setter bakgrunnsfarge på wrapper */
 		width: 85%; /* Setter bredden til 85% av skjermbildet */
 		margin-right: auto; /* Midtstiller nettsiden */
 		margin-left: auto; /* Midtstiller nettsiden */
+		-moz-box-shadow: 0px 0px 2px #333333;
+		-webkit-box-shadow: 0px 0px 2px #333333;
+		box-shadow: 0px 0px 2px #333333;
+		min-height:100%;
 }
 	
-#header {
-		height: 100px; /* Setter høyden på header */
-		width: 	auto; /* Setter bredde på header */
-		margin-left: auto; /* Midtstiller headeren */
-		margin-right: auto; /* Midtstiller headeren */
-		padding: 10px 38px 10px 20px; /* Stiller inn padding*/
-		background: #666; /* Setter bakgrunnsfargen på nettsiden */
-		text-align: center; /* Midtstiller teksten i headeren */
-		}	
-
-img.headerbilde {
-display: block;
-margin-right: auto;
-margin-left: auto;
-}
-
-img.restbilder {
-display: block;
-margin-right: auto;
-margin-left: auto;
-}
-
 #menubar ul { /* Definerer <ul> under menubar id'en */
-  background: #666;
-  height: 14px;
+  background: #333333;
+  height: 45px;
   list-style: none;
-  padding-left:0px;
+  padding-left:10%;
   margin: 0;
+  padding-top:5px;
 }		
 
 #menubar li { /* Definerer <li> under menubar id'en */
@@ -49,7 +32,7 @@ margin-left: auto;
 }
 
 #menubar li a { /* Definerer linkene som finnes i <li> under menubar id'en */
-  background: #2580a2 bottom right no-repeat;
+  background: #333333 bottom right no-repeat;
   display: block;
   font-weight: normal;
   line-height: 35px;
@@ -70,9 +53,10 @@ margin-left: auto;
   
 #menubar  li > a:hover,
 #menubar ul li:hover > a { /* Definerer hva som skjer når du holder over linkene med musa under menubar id'ën */
-  background: #2580a2 url('images/hover.png') bottom center no-repeat;
+  background: #333333 url('images/hover.png') bottom center no-repeat;
   color: #FFFFFF;
   text-decoration: none;
+  
   }
 #menubar li ul { /* Definerer undermenyene */
   background: #333333;
@@ -114,7 +98,7 @@ margin-left: auto;
 #menubar  li ul a:hover,
 
 #menubar li ul li:hover > a {
-  background: #2580a2 url('images/hover_sub.png') center left no-repeat;
+  background: #5e5e5e url('images/hover_sub.png') center left no-repeat;
   border: 0px;
   color: #ffffff;
   text-decoration: none;
@@ -123,33 +107,33 @@ margin-left: auto;
   clear: left;
 }
 #footer { /* Definerer footeren */
-	background: #666;
+	background: #333333;
 	bottom:0;
-	width:auto;
+	width:100%;
 	height:60px;
-	position:relative;
-	text-align: center;
-	margin-top: 2cm;	
+	text-align: center;	
+	position:absolute;
+}
 }
 
 	
 #container{ /* Definerer containeren */
-		background: #66A3D2;
+		background: #f0f0f0;
 		position: relative;
 		width: auto;
 		height: auto;
-		margin-top: 21px;
+		margin-top: 0px;
 		text-align: center;
+		padding-bottom:60px;
 		}
 		
 		
 #content { /* Definerer content */
-		background: #ffffff;
+		background: #f0f0f0;
 		height: auto;
 		width: 60%;
 		margin-right: auto;
 		margin-left: auto;
-		padding: 10px 10px 10px 10px;
 }		
 
 
@@ -168,5 +152,24 @@ margin-left: auto;
 width:250px;
 height:250px;
 float: right;
+margin-top: 10px;
+margin-right: 10px;
 
+}
+
+.fadein {
+position:relative;
+width:500px;
+height:332px;
+}
+
+.fadein img {
+position:absolute;
+left:0;
+top:0;
+}
+
+.sokemotor {
+margin-top: 5px;
+margin-left:50px;
 }

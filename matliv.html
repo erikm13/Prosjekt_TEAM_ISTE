@@ -9,16 +9,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<script src="jquery-1.8.1.js"></script>
-<script src="slideshow.js"></script>
+<script src="js/jquery-1.8.1.js"></script>
+<script src="js/slideshow.js"></script> <!-- RETT PÅ DENNE SENERE! -->
 <title>Matliv i Kristiansand</title>
 <link rel="stylesheet" href="matliv.css" type="text/css" media="all" />
 </head>
 <body>
-<div id="wrapper">	<!-- Holder alle div'ene på plass -->
-<div id="header">
-<IMG class="headerbilde" src="images/header4.jpg">
-</div>
 <div id="menubar"> <!-- Menyen som er under headeren -->
 <ul>
 <li class='active'><a href='matliv.html'><span>Hjem</span></a></li>
@@ -53,12 +49,19 @@
    </li>
 		<li class='active'><a href='anbefalinger.html'><span>Anbefalinger</span></a></li>
 		<li class='active'><a href='registrering.html'><span>Registrering</span></a></li>
-		<li class='active'><a href='cafe.html'><span>Café</span></a></li>
-		<li class='active'><a href='nyhet.html'><span>Nyhet</span></a></li>
+		<li class='sokemotor'><span><form name="cse" id="searchbox_demo" action="http://www.google.com/cse"> <input type="hidden" name="cref" value="" /> <input type="hidden" name="ie" value="utf-8" />
+<input type="hidden" name="hl" value="" /> <input name="q" type="text" size="25" /> <input type="submit" name="sa" value="Søk" />
+</form> <script type="text/javascript" src="https://www.google.com/cse/tools/onthefly?form=searchbox_demo&lang="></script></span></li>
    </ul>
+
 </li>
+
 </ul>
 
+
+</div>
+
+<div id="wrapper">	<!-- Holder alle div'ene på plass -->
 
 	
 
@@ -81,8 +84,8 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <div id="googleMap"></div>	
-<h1> Registreringskjema  </h1>
-<p> Slideshow </p>		
+<h1 style="text-align:center;"> Registreringskjema  </h1>
+<p style="text-align:center;"> Slideshow </p>		
 
 <div class="fadein">
 <img src="images/restauranter/amigos.jpg">
@@ -90,10 +93,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <img src="images/restauranter/harveys.jpg">
 
 </div>
+</div>
+
+</div>
 <div id="footer">
 <p> Team Iste | &copy; 2013 </p>
 		
-</div>	
 </div>
+
+	
 </body>
 </html>
