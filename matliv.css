@@ -1,73 +1,54 @@
 
-body {
-		font-family: Verdana, Arial, sans-serif;
+body { 
+		font-family: Verdana, Arial, sans-serif; /* Setter fonten på dokumentet */
 		padding: 0;
 		margin: 0;
-		background: #D8D8D8;
-		
-	<!--	background-image:url('images/bakgrunn.png'); -->
-		background: #033E6B;
-		
+		background: #f0f0f0;	/* Setter bakgrunnsfarge bak contentet */
 	}
 	
 #wrapper {
-
-		background: #3E73B9;
-		width: 85%;
-		margin-right: auto;
-		margin-left: auto;
-
+		background: #3E73B9; /* Setter bakgrunnsfarge på wrapper */
+		width: 85%; /* Setter bredden til 85% av skjermbildet */
+		margin-right: auto; /* Midtstiller nettsiden */
+		margin-left: auto; /* Midtstiller nettsiden */
 }
 	
 #header {
-		
-		
-		height: 100px;
-		width: 	auto;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 10px 38px 10px 20px;
-		background: #3E73B9;
-		text-align: center;
-		
-		
-		
+		height: 100px; /* Setter høyden på header */
+		width: 	auto; /* Setter bredde på header */
+		margin-left: auto; /* Midtstiller headeren */
+		margin-right: auto; /* Midtstiller headeren */
+		padding: 10px 38px 10px 20px; /* Stiller inn padding*/
+		background: #666; /* Setter bakgrunnsfargen på nettsiden */
+		text-align: center; /* Midtstiller teksten i headeren */
 		}	
 
 img.headerbilde {
-
 display: block;
 margin-right: auto;
 margin-left: auto;
-
 }
 
 img.restbilder {
-
 display: block;
 margin-right: auto;
 margin-left: auto;
-
-
-
 }
 
-#menubar ul {
-  background: #3E73B9;
+#menubar ul { /* Definerer <ul> under menubar id'en */
+  background: #666;
   height: 14px;
   list-style: none;
   padding-left:0px;
   margin: 0;
-  
-
 }		
 
-#menubar li {
+#menubar li { /* Definerer <li> under menubar id'en */
   float: left;
   padding: 0px;
 }
 
-#menubar li a {
+#menubar li a { /* Definerer linkene som finnes i <li> under menubar id'en */
   background: #2580a2 bottom right no-repeat;
   display: block;
   font-weight: normal;
@@ -79,21 +60,21 @@ margin-left: auto;
   text-decoration: none;
   }
   
-#menubar > ul > li > a {
+#menubar > ul > li > a { /* Definerer linkene i undermenyen */
   color: #cccccc;
   }
 
-#menubar ul ul a {
+#menubar ul ul a { /* Definerer linkene i menubar id'en */
   color: #cccccc;
   }
   
 #menubar  li > a:hover,
-#menubar ul li:hover > a {
+#menubar ul li:hover > a { /* Definerer hva som skjer når du holder over linkene med musa under menubar id'ën */
   background: #2580a2 url('images/hover.png') bottom center no-repeat;
   color: #FFFFFF;
   text-decoration: none;
   }
-#menubar li ul {
+#menubar li ul { /* Definerer undermenyene */
   background: #333333;
   display: none;
   height: auto;
@@ -103,15 +84,12 @@ margin-left: auto;
   position: absolute;
   width: 225px;
   z-index: 200;
-  /*top:1em;
-	left:0;*/
-
 }
-#menubar  li:hover ul {
+#menubar  li:hover ul { /* Definerer hva som skjer når du holder musa over et <ul> element innenfor <li> */
   display: block;
 }
 
-#menubar li li {
+#menubar li li { /* Definerer <li> innenfor <li> i menubar id'en */
   background: url('images/sub_sep.png') bottom left no-repeat;
   display: block;
   float: center;
@@ -119,7 +97,7 @@ margin-left: auto;
   padding: 0px;
   width: 225px;
  }
-#menubar  li:hover li a {
+#menubar  li:hover li a { /* Definerer hva som skjer når du holder musa over en <li> innenfor  */
   background: none;
 }
 
@@ -144,63 +122,38 @@ margin-left: auto;
 #menubar p {
   clear: left;
 }
-  
- 
-
-#footer {
-
-	background: #25567B;
+#footer { /* Definerer footeren */
+	background: #666;
 	bottom:0;
 	width:auto;
 	height:60px;
 	position:relative;
 	text-align: center;
 	margin-top: 2cm;	
-	
-
 }
 
 	
-#container{
+#container{ /* Definerer containeren */
 		background: #66A3D2;
 		position: relative;
 		width: auto;
 		height: auto;
 		margin-top: 21px;
-		
 		text-align: center;
 		}
 		
 		
-#content {
-
-
+#content { /* Definerer content */
 		background: #ffffff;
 		height: auto;
 		width: 60%;
 		margin-right: auto;
 		margin-left: auto;
 		padding: 10px 10px 10px 10px;
-		
-		
-		
-
 }		
 
-#contentmaps{
-		width: 250px;
-		height: 250px;
-		float: right;
-		margin-right: 10px;
-		margin-top: 25px;
-		padding: 0px 200px 0px 0px;
-		
-		text-align: center;
-		}
-		
-#contentbilde {
 
-		
+#contentbilde { /* Definerer contentbilde */
 		width: 250px;
 		height: 250px;
 		float: left;
@@ -208,28 +161,12 @@ margin-left: auto;
 		margin-left: 10px;
 		margin-top: 25px;
 		padding: 0px 0px 0px 200px;
-		
 		text-align: center;
-		
-
 }
 
-		
+#googleMap {
+width:250px;
+height:250px;
+float: right;
 
-ul.navigasjon li {
-  background: white;
-  margin: 0.5em 0;
-  padding: 0.3em;
-  border-right: 1em solid black;}
-ul.navigasjon a {
-  text-decoration: none; }
-ul.navigasjon {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position:fixed;
-  top: 2em;
-  left: 380px;
-  width: 9em; }
-  
- 
+}
