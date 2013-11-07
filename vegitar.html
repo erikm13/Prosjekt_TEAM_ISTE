@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<!--
+  Prosjekt
+  Navn: Team Iste
+  Rom: IS-107
+-->
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Matliv i Kristiansand</title>
+	  
+		<link rel="stylesheet" href="matliv.css" type="text/css" media="all" />
+	</head>
+		<body>
+		<div id="wrapper">
+		
+		
+		<div id="header">
+		
+		<IMG class="headerbilde" src="images/header4.jpg">
+		
+		</div>
+		
+		<div id="menubar">
+		
+		<ul>
+   <li class='active'><a href='matliv.html'><span>Hjem</span></a></li>
+   
+   <li class='has-sub'><a href='#'><span>Kategorier</span></a>
+      <ul>
+         <li><a href='kjøtt.html'><span>Kjøtt</span></a></li>
+        <li><a href='fisk.html'><span>Fisk</span></a></li>
+		 <li><a href='pizza.html'><span>Pizza</span></a></li>
+		 <li><a href='kinesisk.html'><span>Kinesisk</span></a></li>
+		 <li><a href='takeaway.html'><span>Take away</span></a></li>
+		 <li><a href='glutenfri.html'><span>Glutenfri</span></a></li>
+		 <li><a href='vegitar.html'><span>Vegitar</span></a></li>
+         <li class='last'><a href='#'><span>Products</span></a></li>
+      </ul>
+   
+   <li class='has-sub'><a href='#'><span>Restauranter</span></a>
+      <ul>
+        <li><a href='dolly.html'><span>Dolly Dimples</span></a></li>
+         <li><a href='egon.html'><span>Egon</span></a></li>
+		 <li><a href='sjøhuset.html'><span>Sjøhuset</span></a></li>
+		 <li><a href='harveys.html'><span>Harveys</span></a></li>
+		 <li><a href='amigos.html'><span>Amigos</span></a></li>
+		 <li><a href='motherindia.html'><span>Mother India</span></a></li>
+         <li class='last'><a href='#'><span>Products</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>Om oss</span></a>
+      <ul>
+         <li><a href='hvemervi.html'><span>Hvem er vi</span></a></li>
+         <li class='last'><a href='kontakt.html'><span>Kontakt oss</span></a></li>
+      </ul>
+   </li>
+   <li class='active'><a href='anbefalinger.html'><span>Anbefalinger</span></a></li>
+   <li class='active'><a href='registrering.html'><span>Registrering</span></a></li>
+   <li class='active'><a href='cafe.html'><span>Café</span></a></li>
+   <li class='active'><a href='nyhet.html'><span>Nyhet</span></a></li>
+   
+   
+   
+</ul>
+
+
+	
+		</div>
+		
+		<div id="container">
+
+		<div id="contentmaps">
+		
+		<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+<body>
+<div id="googleMap" style="width:250px;height:250px;"></div>
+
+</body>
+		
+		</div>
+		<h1> Vegitarrestauranter  </h1>
+	
+		<p> Oversikt over restauranter </p>
+		
+
+	<div id="footer">
+		<p> Team Iste | &copy; 2013
+		
+		</div>
+	</div>
+	</div>
+	
+
+	
+
+		
+	</body>
+</html>

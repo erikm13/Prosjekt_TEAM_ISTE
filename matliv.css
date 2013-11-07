@@ -8,7 +8,7 @@ body {
 	
 #wrapper {
 		background: #f0f0f0; /* Setter bakgrunnsfarge på wrapper */
-		width: 85%; /* Setter bredden til 85% av skjermbildet */
+		width: 1024px; /* Setter bredden til 85% av skjermbildet */
 		margin-right: auto; /* Midtstiller nettsiden */
 		margin-left: auto; /* Midtstiller nettsiden */
 		-moz-box-shadow: 0px 0px 2px #333333;
@@ -110,10 +110,10 @@ body {
 	background: #333333;
 	bottom:0;
 	width:100%;
-	height:60px;
+	height:50px;
 	text-align: center;	
-	position:absolute;
-}
+	clear:both;
+	color
 }
 
 	
@@ -123,8 +123,7 @@ body {
 		width: auto;
 		height: auto;
 		margin-top: 0px;
-		text-align: center;
-		padding-bottom:60px;
+		padding-bottom:50px;
 		}
 		
 		
@@ -137,20 +136,15 @@ body {
 }		
 
 
-#contentbilde { /* Definerer contentbilde */
-		width: 250px;
-		height: 250px;
-		float: left;
-		margin-right: 10px;
-		margin-left: 10px;
-		margin-top: 25px;
-		padding: 0px 0px 0px 200px;
-		text-align: center;
+#comment {
+
+		width: 100%;
+		height: auto;
+		float:center ;
+		clear:both;
 }
 
 #googleMap {
-width:250px;
-height:250px;
 float: right;
 margin-top: 10px;
 margin-right: 10px;
@@ -158,18 +152,65 @@ margin-right: 10px;
 }
 
 .fadein {
+width:250px;
+height:250px;
+margin-top: 10px;
+margin-right: 10px;
 position:relative;
-width:500px;
-height:332px;
+
+
+
 }
 
 .fadein img {
 position:absolute;
 left:0;
 top:0;
+
 }
 
 .sokemotor {
 margin-top: 5px;
 margin-left:50px;
+}
+
+.tekstboks {
+width:350px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.centerdiv {
+float: right;
+width:250px;
+height:250px;
+clear:both;
+margin-top: 10px;
+margin-right: 10px;
+}
+.tekstboksh1	 {
+width:450px;
+margin-left: 10px;
+margin-top: 10px;
+}
+.restaurantbilder {
+float: right;
+width:500px;
+height:375px;
+clear:both;
+margin-top: 10px;
+margin-right: 10px;
+}
+.kategorilinje {
+width:100%;
+height:121px;
+padding-top:10px;
+border-bottom:1px;
+border-bottom-style:solid;
+border-bottom-color:black;
+}
+
+.kategorilinje img {
+float:left;
+padding:10px;
 }
