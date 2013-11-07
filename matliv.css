@@ -43,11 +43,11 @@ body {
   text-decoration: none;
   }
   
-#menubar > ul > li > a { /* Definerer linkene i undermenyen */
-  color: #cccccc;
+#menubar > ul > li > a { /* Definerer linkene i menyen */
+  color:#cccccc;
   }
 
-#menubar ul ul a { /* Definerer linkene i menubar id'en */
+#menubar ul ul a { /* Definerer linkene i undermenyene */
   color: #cccccc;
   }
   
@@ -189,7 +189,7 @@ margin-top: 10px;
 margin-right: 10px;
 }
 .tekstboksh1	 {
-width:450px;
+width:600px;
 margin-left: 10px;
 margin-top: 10px;
 }
@@ -208,6 +208,11 @@ padding-top:10px;
 border-bottom:1px;
 border-bottom-style:solid;
 border-bottom-color:black;
+}
+.kategorilinjefiller {
+width:100%;
+height:121px;
+padding-top:10px;
 }
 
 .kategorilinje img {
